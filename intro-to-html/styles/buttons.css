@@ -1,0 +1,136 @@
+button{
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+.SUBSCRIBE{
+  background-color: rgb(204, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 16px 10px 16px;
+  border-radius: 2px;
+  
+  transition: opacity 0.15s;
+}
+
+.SUBSCRIBE:hover{
+  opacity: 0.8;
+}
+
+.SUBSCRIBE:active{
+  opacity: 0.5;
+}
+
+.JOIN{
+  background-color: white;
+  border:solid 1px rgb(6, 95, 212);
+  color:rgb(6, 95, 212);
+  padding: 9px 15px 9px 15px;
+  border-radius: 2px;
+  margin-right: 12px;
+  transition: background-color 0.15s, 
+  color 0.15s;
+}
+
+.JOIN:hover{
+  background-color: rgb(6, 95, 212);
+  color: white;
+}
+
+.JOIN:active{
+  opacity: 0.7;
+}
+
+.tweet{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding: 7px 16px 7px 16px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: box-shadow 0.15s;
+  margin-right: 12px;
+}
+
+.tweet:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tweet:active{
+  opacity: 0.8;
+}
+
+.stretch{
+  background-color: green;
+  padding: 10px 16px 10px 16px;
+  color: white;
+  border: none;
+  transition: padding 0.2s;
+  
+}
+
+.stretch:hover{
+  padding: 15px 24px 15px 24px;
+}
+
+.shadow{
+  background-color: green;
+  padding: 10px 16px 10px 16px;
+  color: white;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.15s;
+}
+
+.shadow:active{
+  box-shadow: 0 0 0 0;
+}
+#padding-margin{
+  padding: 6px 10px 6px 10px;
+}
+
+.one{
+  background-color: green;
+  padding: 10px 16px 10px 16px;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: margin 0.15s, padding 0.15s;
+}
+
+.one:hover{
+  margin: 0;
+  padding: 10px 26px 10px 26px;
+}
+
+.two{
+  background-color: green;
+  padding: 10px 16px 10px 16px;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: margin 0.15s, padding 0.15s;
+}
+
+.two:hover{
+  margin: 0;
+  padding: 10px 26px 10px 26px;
+}
+
+.three{
+  background-color: green;
+  padding: 10px 16px 10px 16px;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: margin 0.15s, padding 0.15s;
+}
+
+.three:hover{
+  margin: 0;
+  padding: 10px 26px 10px 26px;
+}

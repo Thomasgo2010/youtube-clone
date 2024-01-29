@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Overlay</title>
+
+    <style>
+      .overlay{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .model{
+        background-color: white;
+        width: 500px;
+        height: 200px;
+        border-radius: 20px;
+        border-width: 3px;
+        border-color: gray;
+        border-style: solid;
+        padding-left: 20px;
+        font-family: Arial;
+      }
+
+
+      .sidebar{
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 90px;
+        background-color: green;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">right sidebar</div>
+    <div class="overlay">
+      <div class="model">
+        <h1>Model Title</h1>
+        <p>Dit is een modal</p>
+        <button>close</button>
+      </div>
+    </div>
+  </body>
+</html>

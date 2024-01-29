@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercises</title>
+
+    <style>
+
+      .flex{
+        margin-top: 200px;
+        display: flex;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+      }
+
+      .div1{
+        margin: 0;
+        background-color: lightpink;
+        width: 100px;
+      }
+
+      .div2{
+        margin: 0;
+        background-color: lightblue;
+        flex: 1;
+      }
+
+      .space{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+      }
+
+      .item2,
+      .item3{
+        background-color: black;
+        color: white;
+      }
+
+      .container{
+        display: grid;
+        border-style: solid;
+        border-color: rgb(185, 185, 185);
+        border-radius: 5px;
+        border-width: 1px;
+        grid-template-columns: 1fr;
+        width: 200px;
+        row-gap: 7px;
+        font-weight: 600;
+      }
+
+      div{
+        display: inline-block;
+        margin: 5px;
+      }
+
+      .top, .middle, .bottom{
+        display: flex;
+        justify-content: space-between;
+        font-family: Arial;
+      }
+
+      .aantal{
+        background-color: rgb(36, 101, 223);
+        color: white;
+        border-radius: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+      }
+
+
+    </style>
+
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+       <div class="home">Home</div>  <div class="aantal">14</div>
+      </div>
+      <div class="middle">
+        <div class="notifications">Notifications</div><div class="aantal">3</div>
+      </div>
+      <div class="bottom">
+        <div class="messages">Messages</div><div class="aantal">5</div>
+      </div>
+    </div>
+
+
+    <div class="flex">
+      <div class="div1"></div>
+      <div class="div2">
+        <p class="item1">row1</p>
+        <div class="space">
+          <p class="item2">row2</p>
+          <p class="item3">row2</p>
+        </div>
+    </div>
+    </div>
+    
+  </body>
+</html>
